@@ -12,11 +12,11 @@ Ethereum is not the only currency investors can use when investing, they can als
 ## The Crowdsale Specification
 *	Eristica token is ERC-20 compliant.
 *   Allocation of Eristica tokens goes in the following way:
-     Bounty: 1.5%
-     Advisors: 3,89%
-     Team: 10%
-     Challenge: 10%
-     Ico and Private offer: 74,61%
+    * Bounty: 1.5%
+    * Advisors: 3,89%
+    * Team: 10%
+    * Challenge: 10%
+    * Ico and Private offer: 74,61%
 
 
 ## Code
@@ -76,7 +76,8 @@ replace tokens from presale
 ```cs
 function withdrawEther(uint256 _value) external managerOnly
 ```
-
+allows to withdraw ether from smart contract, when ICO is finished
+```
 #### EristicaIco Events
 
 **LogStartICO**
