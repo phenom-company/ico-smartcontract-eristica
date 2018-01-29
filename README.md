@@ -70,14 +70,14 @@ internal function that called by buyForInvestor and fallback functions
 function replaceToken(address _investor) managerOnly
 ```
 replace tokens from presale
-```
+
 
 **withdrawEther**
 ```cs
 function withdrawEther(uint256 _value) external managerOnly
 ```
 allows to withdraw ether from smart contract, when ICO is finished
-```
+
 #### EristicaIco Events
 
 **LogStartICO**
